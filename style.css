@@ -16,6 +16,9 @@ img[src="Gallery Logo.png"] {
     border: 1px solid grey;
     margin: 5px;
     width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .gallery .desc{
@@ -32,4 +35,12 @@ img[src="Gallery Logo.png"] {
     height: auto;
 }
 
+.button{
+    border: none;
+    background-color: white;
+    text-align: center;
+    cursor: crosshair;
+    display: inline-block;
+
+}
 
