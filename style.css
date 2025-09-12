@@ -11,3 +11,25 @@ img[src="Gallery Logo.png"] {
     bottom: 125px;
 }
 
+.gallery{
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 5px;
+    width: 300px;
+}
+
+.gallery .desc{
+    text-align:center;
+    overflow-wrap: normal;
+}
+
+.gallery:hover{
+    border: 1px solid green;
+}
+
+.gallery img{
+    width: 300px;
+    height: auto;
+}
+
+
