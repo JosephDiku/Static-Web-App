@@ -5,20 +5,20 @@ h1{
     color: aliceblue;
 }
 
-img[src="Gallery Logo.png"] {
-    width: 100px;
-    position: relative;
-    bottom: 125px;
+a{
+    text-decoration: none;
+}
+
+.gallerycontainer{
+    text-align: center;
 }
 
 .gallery{
-    display: inline-block;
+    text-align: center;
+    display: inline-table;
     border: 1px solid grey;
-    margin: 5px;
+    margin: 5px 20px 20px 20px;
     width: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 .gallery .desc{
@@ -26,13 +26,13 @@ img[src="Gallery Logo.png"] {
     overflow-wrap: normal;
 }
 
-.gallery:hover{
-    border: 1px solid green;
-}
-
 .gallery img{
     width: 300px;
     height: auto;
+}
+
+.gallery.button{
+    text-align: center;
 }
 
 .button{
@@ -41,6 +41,23 @@ img[src="Gallery Logo.png"] {
     text-align: center;
     cursor: crosshair;
     display: inline-block;
-
 }
 
+.button1{
+    border: 1px solid;
+    cursor: pointer;
+    margin: 10px;
+    font-family: inherit;
+}
+
+.button2{
+    border: 1px solid;
+    cursor: pointer;
+    margin: 10px;
+    font-family: inherit;
+}
+
+.button1:hover {
+    background-color: #2E6F40;
+    color: white;
+}
