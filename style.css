@@ -5,6 +5,10 @@ h1{
     color: aliceblue;
 }
 
+h2{
+    text-align: center;
+}
+
 a{
     text-decoration: none;
 }
@@ -60,4 +64,16 @@ a{
 .button1:hover {
     background-color: #2E6F40;
     color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E6F40;
+    padding: 10px 20px;
+}
+
+.navbar.navlinks{
+    
 }
